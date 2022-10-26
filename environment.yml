@@ -3,35 +3,17 @@ channels:
   - conda-forge
 dependencies:
   - python=3.10
-  - mamba
-  - notebook
-  - jupyterhub
-  - jupyterlab
-  - beautifulsoup4
-  - bottleneck
-  - cloudpickle
-  - conda-forge::blas[build=openblas]
-  - cython
   - dask
   - dill
-  - h5py
   - ipympl
   - ipywidgets
   - matplotlib-base
-  - numba
-  - numexpr
-  - openpyxl
+  - seaborn
   - pandas
   - protobuf
-  - pytables
   - sqlalchemy
-  - sympy
   - widgetsnbextension
-  - xlrd
-  - ca-certificates
-  - certifi
-  - openssl
-  - numpy
+  - numpy==1.23.1
   - geopandas==0.11.1
   - folium==0.13.0
   - ipyleaflet==0.17.2
