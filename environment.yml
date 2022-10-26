@@ -1,0 +1,53 @@
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - mamba
+  - notebook
+  - jupyterhub
+  - jupyterlab
+  - altair
+  - beautifulsoup4
+  - bokeh
+  - bottleneck
+  - cloudpickle
+  - conda-forge::blas[build=openblas]
+  - cython
+  - dask
+  - dill
+  - h5py
+  - ipympl
+  - ipywidgets
+  - matplotlib-base
+  - numba
+  - numexpr
+  - openpyxl
+  - pandas
+  - patsy
+  - protobuf
+  - pytables
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - seaborn
+  - sqlalchemy
+  - statsmodels
+  - sympy
+  - widgetsnbextension
+  - xlrd
+  - ca-certificates
+  - certifi
+  - openssl
+  - tensorflow
+  - geopandas==0.11.1
+  - folium==0.13.0
+  - ipyleaflet==0.17.2
+  - pyarrow==9.0.0
+  - rasterio==1.3.3
+  - pip
+  - pip:
+    - requests
+    - pystac-client==0.5.1 
+    - plotly==5.10.0
+prefix: /opt/conda
