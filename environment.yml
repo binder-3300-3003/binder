@@ -17,4 +17,7 @@ dependencies:
     - requests==2.28.1
     - pystac-client==0.5.1 
     - plotly==5.10.0
+    - libpysal==4.7.0
+    - esda==2.4.3
+    - splot==1.1.5.post1
 prefix: /opt/conda
